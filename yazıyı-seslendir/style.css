@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #333;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.container{
+    width: 40rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.input-row{
+    display: flex;
+    flex-basis: 50%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+}
+.input-group label{
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.input-group textarea{
+    width: 17rem;
+    height: 14rem;
+    margin-right: 1rem;
+    outline: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+.input-group select{
+    width: 15.7rem;
+    margin-bottom: 1rem;
+    padding: 7px;
+    outline: 0;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+.place{
+    width: 15.8rem;
+    height: 10rem;
+    display: none;
+}
+.place img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(354, 500%, 65%);
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 4px;
+}
+button:active{
+    background-color: red;
+}
